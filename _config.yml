@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zewei He's Homepage"
-description              : ""
+title                    : "Zewei He"
+description              : "Academic homepage of Zewei He, Assistant Professor at Zhejiang University. Exploring computer vision, computational imaging, low-level vision, and generative models."
 repository               : "https://github.com/hezw2016"
 url                      : "https://hezw2016.github.io/ZeweiHe.github.io/"
 baseurl                  : ""
