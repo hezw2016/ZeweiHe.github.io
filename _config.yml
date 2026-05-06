@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zewei He"
-description              : "Academic homepage of Zewei He, Assistant Professor at Zhejiang University. Exploring computer vision, computational imaging, low-level vision, and generative models."
+description              : ""
 repository               : "https://github.com/hezw2016"
 url                      : "https://hezw2016.github.io/ZeweiHe.github.io/"
 baseurl                  : ""
