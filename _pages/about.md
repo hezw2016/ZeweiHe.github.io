@@ -17,14 +17,16 @@ My research interest lies in Computer vision, including computational imaging, l
 
 For prospective students interested in computer vision, feel free to contact me via email!
 
-<h2 id="news">🔥 News</h2>
+<span class='anchor' id='news'></span>
+<h2>🔥 News</h2>
 - *2026.02*: &nbsp;🎉🎉 Our work **GFRRN** is accepted to CVPR26.
 - *2024.09*: &nbsp;🎉🎉 I joined Zhejiang University as a tenure-track assistant professor.
 - *2024.09*: &nbsp;🎉🎉 **DEA-Net** has been selected as an ESI Highly Cited Paper.
 - *2024.06*: &nbsp;🎉🎉 Our work **PTTD** is accepted to ECCV24.
 - *2024.01*: &nbsp;🎉🎉 Our work **DEA-Net** is accepted to TIP24. 
 
-<h2 id="publications">📝 Selected Publications</h2>
+<span class='anchor' id='publications'></span>
+<h2>📝 Selected Publications</h2>
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/gfrrn.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -68,8 +70,8 @@ Zixuan Chen, Zewei He, Zhe-Ming Lu
   
    *IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) 2019*
 
-
-<h2 id="educations">📖 Educations</h2>
+<span class='anchor' id='educations'></span>
+<h2>📖 Educations</h2>
 - *2018.06 - 2019.06*, Visiting Ph.D. in Computer Science, Louisiana State University.
 - *2014.09 - 2019.06*, Ph.D. in Mechanical Engineering and Automation, Zhejiang University.
 - *2010.09 - 2014.06*, B.E. in Mechanical Engineering and Automation, University of Science and Technology Beijing.
