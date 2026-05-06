@@ -9,6 +9,8 @@
 title                    : "Zewei He's Homepage"
 description              : ""
 repository               : "https://github.com/hezw2016"
+url                      : "https://hezw2016.github.io/ZeweiHe.github.io/"
+baseurl                  : ""
 google_scholar_stats_use_cdn : true
 
 # google analytics
