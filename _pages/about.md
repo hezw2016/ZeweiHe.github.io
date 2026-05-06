@@ -8,51 +8,68 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am an assistant professor at Zhejiang University and the Huanjiang Laboratory, leading the Multispectral Vision and Intelligent Processing Lab (MVIP Lab). Before that, I was a Postdoc at Zhejiang University (with Prof. Zheming Lu) and at Louisiana State University (with Prof. Xin Li). I received my Ph.D. from Zhejiang University in 2019, under the supervision of Prof. Jiangxin Yang, and my B.E. degree from the University of Science and Technology Beijing in 2014.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interest lies in Computer vision, including computational imaging, low level vision and generative models.
 
+For prospective students interested in computer vision, feel free to contact me via email!
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<h2 id="news">🔥 News</h2>
+- *2026.02*: &nbsp;🎉🎉 Our work **GFRRN** is accepted to CVPR26.
+- *2024.09*: &nbsp;🎉🎉 I joined Zhejiang University as a tenure-track assistant professor.
+- *2024.09*: &nbsp;🎉🎉 **DEA-Net** has been selected as an ESI Highly Cited Paper.
+- *2024.06*: &nbsp;🎉🎉 Our work **PTTD** is accepted to ECCV24.
+- *2024.01*: &nbsp;🎉🎉 Our work **DEA-Net** is accepted to TIP24. 
 
-# 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<h2 id="publications">📝 Selected Publications</h2>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/gfrrn.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[GFRRN: Explore the Gaps in Single Image Reflection Removal](https://arxiv.org/abs/2602.22695)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+Yu Chen, Zewei He, Xingyu Liu, Zixuan Chen, Zheming Lu
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+*Conference on Computer Vision and Pattern Recognition (CVPR) 2026*
+</div>
+</div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/pttd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Prompt-based test-time real image dehazing: a novel pipeline](https://arxiv.org/pdf/2309.17389)
+
+Zixuan Chen, Zewei He, Ziqian Lu, Xuecheng Sun, Zhe-Ming Lu
+
+*European Conference on Computer Vision (ECCV) 2024*
+</div>
+</div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/deanet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention](https://arxiv.org/pdf/2301.04805)
+
+Zixuan Chen, Zewei He, Zhe-Ming Lu
+
+*IEEE transactions on image processing (TIP) 2024*
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [MRFN: Multi-receptive-field network for fast and accurate single image super-resolution](https://ieeexplore.ieee.org/document/8812972)
+  
+  Zewei He, Siliang Tang, Jiangxin Yang, Yanlong Cao, Michael Ying Yang, Yanpeng Cao
+  
+  *IEEE Transactions on Multimedia (TMM) 2020*
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- [Cascaded Deep Networks with Multiple Receptive Fields for Infrared Image Super-Resolution](https://ieeexplore.ieee.org/document/8432397)
+  
+  Zewei He, Siliang Tang, Jiangxin Yang, Yanlong Cao, Michael Ying Yang, Yanpeng Cao
+  
+   *IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) 2019*
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<h2 id="educations">📖 Educations</h2>
+- *2018.06 - 2019.06*, Visiting Ph.D. in Computer Science, Louisiana State University.
+- *2014.09 - 2019.06*, Ph.D. in Mechanical Engineering and Automation, Zhejiang University.
+- *2010.09 - 2014.06*, B.E. in Mechanical Engineering and Automation, University of Science and Technology Beijing.
